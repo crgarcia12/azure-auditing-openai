@@ -1,0 +1,40 @@
+# Ignore .terraform directory
+**/.terraform/*
+
+# Ignore tfstate files
+*.tfstate
+*.tfstate.*
+
+# Ignore crash log files
+crash.log
+
+# Ignore override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Ignore CLI configuration files
+.terraformrc
+terraform.rc
+
+# Ignore .terraform.lock.hcl file
+.terraform.lock.hcl
+
+# Ignore .tfvars files
+*.tfvars
+
+# Ignore .terraform folder
+.terraform/
+
+# Ignore plan output
+terraform.plan
+
+# Ignore local .terraform plugins directory
+.terraform/plugins/
+
+# Ignore .terraform directories in working directories
+**/.terraform/*
+
+# Ignore provider binary files
+terraform-provider-*
