@@ -1,4 +1,4 @@
-OpenAI Terraform Repository README
+Azure Auditing OpenAI🕵️
 ==================================
 
 This Terraform repository provisions an environment to run and manage an OpenAI instance on Azure. The environment includes an Azure API Management (APIM) service, Cognitive Services, an Event Hub, and a Data Explorer. The APIM service is used to expose a unified API for OpenAI instances, while the Event Hub and Data Explorer are used for logging and analyzing usage data.
