@@ -22,8 +22,6 @@ Usage
 5.  Apply the Terraform configuration: `terraform apply`.OpenAI Terraform Repository README
 ==================================
 
-This Terraform repository provisions an environment to run and manage an OpenAI instance on Azure. The environment includes an Azure API Management (APIM) service, Cognitive Services, an Event Hub, and a Data Explorer. The APIM service is used to expose a unified API for OpenAI instances, while the Event Hub and Data Explorer are used for logging and analyzing usage data.
-
 Repository Structure
 --------------------
 
